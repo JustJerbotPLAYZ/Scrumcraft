@@ -11,7 +11,7 @@
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "nl.delphinity.scrumcraft.client.ScrumcraftDataGenerator"
+      "nl.delphinity.scrumcraft.datagen.ScrumcraftDataGenerator"
     ],
     "client": [
       "nl.delphinity.scrumcraft.client.ScrumcraftClient"
