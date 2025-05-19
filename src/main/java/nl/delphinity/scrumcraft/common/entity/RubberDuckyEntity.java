@@ -1,9 +1,7 @@
 package nl.delphinity.scrumcraft.common.entity;
 
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.projectile.thrown.SnowballEntity;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -26,8 +24,8 @@ public class RubberDuckyEntity extends ThrownItemEntity {
         super(EntityType.SNOWBALL, x, y, z, world, stack);
     }
 
-    public RubberDuckyEntity(EntityType<RubberDuckyEntity> entityEntityType, World world) {
-        super((EntityType<? extends ThrownItemEntity>) entityEntityType, world);
+    public RubberDuckyEntity(EntityType<? extends RubberDuckyEntity> type, World world) {
+        super(type, world);
     }
 
     @Override
