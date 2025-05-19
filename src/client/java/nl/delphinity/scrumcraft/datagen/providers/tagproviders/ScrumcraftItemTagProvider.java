@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
+import nl.delphinity.scrumcraft.common.tags.ModItemTags;
+import nl.delphinity.scrumcraft.init.ModItems;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -15,6 +17,7 @@ public class ScrumcraftItemTagProvider extends FabricTagProvider<Item> {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-
+        getOrCreateTagBuilder(ModItemTags.DUCKIES)
+                .add(ModItems.RUBBER_DUCKY);
     }
 }

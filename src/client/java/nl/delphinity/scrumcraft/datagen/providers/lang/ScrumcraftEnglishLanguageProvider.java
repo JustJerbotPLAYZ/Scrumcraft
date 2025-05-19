@@ -2,6 +2,7 @@ package nl.delphinity.scrumcraft.datagen.providers.lang;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.registry.RegistryWrapper;
+import nl.delphinity.scrumcraft.init.ModItems;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -16,11 +17,16 @@ public class ScrumcraftEnglishLanguageProvider extends AbstractLanguageProvider{
         getExistingLangFile(translationBuilder);
 
         // Items
+        translationBuilder.add(ModItems.RUBBER_DUCKY, "Rubber Ducky");
 
         // Blocks
 
         // ItemGroups
 
         // ItemTags
+
+        // Sounds
+        translationBuilder.add("sound.scrumcraft.rubber_ducky_squeak", "Quack!");
+        translationBuilder.add("sounds.scumcraft.rubber_ducky_throw", "Duck yeeteth");
     }
 }
