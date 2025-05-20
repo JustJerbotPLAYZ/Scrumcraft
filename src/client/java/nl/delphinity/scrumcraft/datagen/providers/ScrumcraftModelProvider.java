@@ -37,6 +37,7 @@ public class ScrumcraftModelProvider extends FabricModelProvider {
         modelGen.register(ModItems.Scrum_Kaart_8, Models.GENERATED);
         modelGen.register(ModItems.Scrum_Kaart_13, Models.GENERATED);
         modelGen.register(ModItems.Scrum_Kaart_40, Models.GENERATED);
+        modelGen.register(ModItems.JONGLEER_BAL, Models.GENERATED);
 
     }
 }

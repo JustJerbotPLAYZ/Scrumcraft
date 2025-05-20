@@ -10,6 +10,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import nl.delphinity.scrumcraft.Scrumcraft;
+import nl.delphinity.scrumcraft.common.entity.BallEntity;
 import nl.delphinity.scrumcraft.common.entity.RubberDuckyEntity;
 
 public class ModEntityTypes {
@@ -20,6 +21,15 @@ public class ModEntityTypes {
             EntityType.Builder.<RubberDuckyEntity>create(RubberDuckyEntity::new, SpawnGroup.MISC)
                     .build(RUBBER_DUCKY_ENTITY_KEY)
     );
+
+    public static final RegistryKey<EntityType<?>> BALL_ENTITY_KEY = RegistryKey.of(RegistryKeys.ENTITY_TYPE, Identifier.of(Scrumcraft.MOD_ID, "ball_entity"));
+    public static final EntityType<BallEntity> BALL_ENTITY = Registry.register(
+            Registries.ENTITY_TYPE,
+            Identifier.of(Scrumcraft.MOD_ID, "ball_entity"),
+            EntityType.Builder.<BallEntity>create(BallEntity::new, SpawnGroup.MISC)
+                    .build(BALL_ENTITY_KEY)
+    );
+
 
     public static void init() {}
 }

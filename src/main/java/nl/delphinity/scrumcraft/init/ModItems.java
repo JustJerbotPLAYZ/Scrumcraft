@@ -9,6 +9,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import nl.delphinity.scrumcraft.Scrumcraft;
+import nl.delphinity.scrumcraft.common.items.Ball;
 import nl.delphinity.scrumcraft.common.items.RubberDucky;
 
 import java.util.function.Function;
@@ -23,6 +24,7 @@ public class ModItems {
     public static final Item Scrum_Kaart_13 = register("scrum_kaart_13", Item::new, new Item.Settings());
     public static final Item Scrum_Kaart_40 = register("scrum_kaart_40", Item::new, new Item.Settings());
     public static final Item Scrum_Kaart_infinity = register("scrum_kaart_infinity", Item::new, new Item.Settings());
+    public static final Ball JONGLEER_BAL = (Ball) register("ball", Ball::new, new Item.Settings());
 
 
     public static void init() {

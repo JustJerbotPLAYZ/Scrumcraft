@@ -7,5 +7,6 @@ import nl.delphinity.scrumcraft.init.ModEntityTypes;
 public class EntityRenderers {
     public static void init() {
         EntityRendererRegistry.register(ModEntityTypes.RUBBER_DUCKY_ENTITY, FlyingItemEntityRenderer::new);
+        EntityRendererRegistry.register(ModEntityTypes.BALL_ENTITY, FlyingItemEntityRenderer::new);
     }
 }
