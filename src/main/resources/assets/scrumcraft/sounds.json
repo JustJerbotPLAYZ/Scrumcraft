@@ -12,5 +12,12 @@
     "sounds": [
       "scrumcraft:rubber_ducky_throw"
     ]
+  },
+  "ball_hit": {
+    "subtitle": "sound.scrumcraft.ball_hit",
+    "sounds": [
+      "scrumcraft:random/ball_hit_1",
+      "scrumcraft:random/ball_hit_2"
+    ]
   }
 }

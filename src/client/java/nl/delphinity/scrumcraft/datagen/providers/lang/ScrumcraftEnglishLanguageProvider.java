@@ -35,6 +35,7 @@ public class ScrumcraftEnglishLanguageProvider extends AbstractLanguageProvider{
 
         // Sounds
         translationBuilder.add("sound.scrumcraft.rubber_ducky_squeak", "Quack!");
-        translationBuilder.add("sounds.scumcraft.rubber_ducky_throw", "Duck yeeteth");
+        translationBuilder.add("sound.scumcraft.rubber_ducky_throw", "Duck yeeteth");
+        translationBuilder.add("sound.scrumcraft.ball_hit", "Ball hit");
     }
 }

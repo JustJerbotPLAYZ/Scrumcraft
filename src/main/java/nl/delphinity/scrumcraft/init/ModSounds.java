@@ -10,6 +10,7 @@ public class ModSounds {
 
     public static final SoundEvent RUBBER_DUCKY_SQUEAK = registerSound("rubber_ducky_squeak");
     public static final SoundEvent RUBBER_DUCKY_THROW = registerSound("rubber_ducky_throw");
+    public static final SoundEvent BALL_HIT = registerSound("ball_hit");
 
     public static void init() {
 
