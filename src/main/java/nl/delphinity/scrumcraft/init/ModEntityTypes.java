@@ -1,5 +1,7 @@
 package nl.delphinity.scrumcraft.init;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
+import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.registry.Registries;
@@ -15,12 +17,8 @@ public class ModEntityTypes {
     public static final EntityType<RubberDuckyEntity> RUBBER_DUCKY_ENTITY = Registry.register(
             Registries.ENTITY_TYPE,
             Identifier.of(Scrumcraft.MOD_ID, "rubber_ducky_entity"),
-            EntityType.Builder.create(RubberDuckyEntity::new, SpawnGroup.MISC)
-                    .dropsNothing()
-                    .dimensions(0.25f, 0.25f)
-                    .maxTrackingRange(4)
-                    .trackingTickInterval(20)
-                    .build()
+            EntityType.Builder.<RubberDuckyEntity>create(RubberDuckyEntity::new, SpawnGroup.MISC)
+                    .build(RUBBER_DUCKY_ENTITY_KEY)
     );
 
     public static void init() {}
