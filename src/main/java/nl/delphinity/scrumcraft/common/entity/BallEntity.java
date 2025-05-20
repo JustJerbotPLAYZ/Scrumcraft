@@ -6,10 +6,12 @@ import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.world.World;
 import nl.delphinity.scrumcraft.init.ModEntityTypes;
 import nl.delphinity.scrumcraft.init.ModItems;
+import nl.delphinity.scrumcraft.init.ModSounds;
 
 public class BallEntity extends ThrownItemEntity {
 
@@ -34,6 +36,8 @@ public class BallEntity extends ThrownItemEntity {
     @Override
     protected void onCollision(HitResult hitResult) {
         World world = this.getWorld();
+
+        world.playSound(null, this.getX(), this.getY(), this.getZ(), ModSounds.BALL_HIT, SoundCategory.PLAYERS, 0.5f, 1F);
 
         if(!world.isClient){
             this.kill((ServerWorld) world);
