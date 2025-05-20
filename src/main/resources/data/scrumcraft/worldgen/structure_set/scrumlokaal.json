@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "scrumcraft:werkruimte",
+      "structure": "scrumcraft:scrumlokaal",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 32,
+    "spacing": 24,
     "separation": 8,
-    "salt": 276135
+    "salt": 78234634
   }
 }
