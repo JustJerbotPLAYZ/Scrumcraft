@@ -1,5 +1,13 @@
 {
   "item.scrumcraft.rubber_ducky": "Rubber Ducky",
+  "item.scrumcraft.scrum_kaart_1": "Scrum Kaart 1",
+  "item.scrumcraft.scrum_kaart_13": "Scrum Kaart 13",
+  "item.scrumcraft.scrum_kaart_2": "Scrum Kaart 2",
+  "item.scrumcraft.scrum_kaart_3": "Scrum Kaart 3",
+  "item.scrumcraft.scrum_kaart_40": "Scrum Kaart 40",
+  "item.scrumcraft.scrum_kaart_5": "Scrum Kaart 5",
+  "item.scrumcraft.scrum_kaart_8": "Scrum Kaart 8",
+  "item.scrumcraft.scrum_kaart_infinity": "De infinity kaart",
   "sound.scrumcraft.rubber_ducky_squeak": "Quack!",
   "sounds.scumcraft.rubber_ducky_throw": "Duck yeeteth"
 }

@@ -15,6 +15,15 @@ import java.util.function.Function;
 
 public class ModItems {
     public static final RubberDucky RUBBER_DUCKY = (RubberDucky) register("rubber_ducky", RubberDucky::new, new Item.Settings());
+    public static final Item Scrum_Kaart_1 = register("scrum_kaart_1", Item::new, new Item.Settings());
+    public static final Item Scrum_Kaart_2 = register("scrum_kaart_2", Item::new, new Item.Settings());
+    public static final Item Scrum_Kaart_3 = register("scrum_kaart_3", Item::new, new Item.Settings());
+    public static final Item Scrum_Kaart_5 = register("scrum_kaart_5", Item::new, new Item.Settings());
+    public static final Item Scrum_Kaart_8 = register("scrum_kaart_8", Item::new, new Item.Settings());
+    public static final Item Scrum_Kaart_13 = register("scrum_kaart_13", Item::new, new Item.Settings());
+    public static final Item Scrum_Kaart_40 = register("scrum_kaart_40", Item::new, new Item.Settings());
+    public static final Item Scrum_Kaart_infinity = register("scrum_kaart_infinity", Item::new, new Item.Settings());
+
 
     public static void init() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(itemGroup -> {

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scrumcraft:item/scrum_kaart_40"
+  }
+}
