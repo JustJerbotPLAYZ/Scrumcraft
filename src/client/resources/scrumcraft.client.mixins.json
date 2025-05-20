@@ -4,6 +4,7 @@
   "package": "nl.delphinity.scrumcraft.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
+
   ],
   "injectors": {
     "defaultRequire": 1
