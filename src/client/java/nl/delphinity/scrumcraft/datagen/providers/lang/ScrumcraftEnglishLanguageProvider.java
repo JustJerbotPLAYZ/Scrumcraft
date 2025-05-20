@@ -18,24 +18,27 @@ public class ScrumcraftEnglishLanguageProvider extends AbstractLanguageProvider{
 
         // Items
         translationBuilder.add(ModItems.RUBBER_DUCKY, "Rubber Ducky");
-        translationBuilder.add(ModItems.Scrum_Kaart_1, "Scrum Kaart 1");
-        translationBuilder.add(ModItems.Scrum_Kaart_2, "Scrum Kaart 2");
-        translationBuilder.add(ModItems.Scrum_Kaart_3, "Scrum Kaart 3");
-        translationBuilder.add(ModItems.Scrum_Kaart_5, "Scrum Kaart 5");
-        translationBuilder.add(ModItems.Scrum_Kaart_8, "Scrum Kaart 8");
-        translationBuilder.add(ModItems.Scrum_Kaart_13, "Scrum Kaart 13");
-        translationBuilder.add(ModItems.Scrum_Kaart_40, "Scrum Kaart 40");
-        translationBuilder.add(ModItems.Scrum_Kaart_infinity, "De infinity kaart");
+        translationBuilder.add(ModItems.SCRUM_KAART_1, "Scrum Kaart 1");
+        translationBuilder.add(ModItems.SCRUM_KAART_2, "Scrum Kaart 2");
+        translationBuilder.add(ModItems.SCRUM_KAART_3, "Scrum Kaart 3");
+        translationBuilder.add(ModItems.SCRUM_KAART_5, "Scrum Kaart 5");
+        translationBuilder.add(ModItems.SCRUM_KAART_8, "Scrum Kaart 8");
+        translationBuilder.add(ModItems.SCRUM_KAART_13, "Scrum Kaart 13");
+        translationBuilder.add(ModItems.SCRUM_KAART_40, "Scrum Kaart 40");
+        translationBuilder.add(ModItems.SCRUM_KAART_INFINITY, "De infinity kaart");
+        translationBuilder.add(ModItems.JONGLEER_BAL, "Jongleerbal");
 
         // Blocks
 
         // ItemGroups
+        translationBuilder.add("itemGroup.scrumcraft", "Scrumcraft");
 
         // ItemTags
 
         // Sounds
         translationBuilder.add("sound.scrumcraft.rubber_ducky_squeak", "Quack!");
-        translationBuilder.add("sound.scumcraft.rubber_ducky_throw", "Duck yeeteth");
+        translationBuilder.add("sound.scrumcraft.rubber_ducky_throw", "Duck yeeteth");
         translationBuilder.add("sound.scrumcraft.ball_hit", "Ball hit");
+        translationBuilder.add("sound.scrumcraft.ball_throw", "Ball thrown");
     }
 }

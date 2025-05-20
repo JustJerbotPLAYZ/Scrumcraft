@@ -29,14 +29,14 @@ public class ScrumcraftModelProvider extends FabricModelProvider {
      */
     @Override
     public void generateItemModels(ItemModelGenerator modelGen) {
-     modelGen.register(ModItems.Scrum_Kaart_infinity, Models.GENERATED);
-        modelGen.register(ModItems.Scrum_Kaart_1, Models.GENERATED);
-        modelGen.register(ModItems.Scrum_Kaart_2, Models.GENERATED);
-        modelGen.register(ModItems.Scrum_Kaart_3, Models.GENERATED);
-        modelGen.register(ModItems.Scrum_Kaart_5, Models.GENERATED);
-        modelGen.register(ModItems.Scrum_Kaart_8, Models.GENERATED);
-        modelGen.register(ModItems.Scrum_Kaart_13, Models.GENERATED);
-        modelGen.register(ModItems.Scrum_Kaart_40, Models.GENERATED);
+     modelGen.register(ModItems.SCRUM_KAART_INFINITY, Models.GENERATED);
+        modelGen.register(ModItems.SCRUM_KAART_1, Models.GENERATED);
+        modelGen.register(ModItems.SCRUM_KAART_2, Models.GENERATED);
+        modelGen.register(ModItems.SCRUM_KAART_3, Models.GENERATED);
+        modelGen.register(ModItems.SCRUM_KAART_5, Models.GENERATED);
+        modelGen.register(ModItems.SCRUM_KAART_8, Models.GENERATED);
+        modelGen.register(ModItems.SCRUM_KAART_13, Models.GENERATED);
+        modelGen.register(ModItems.SCRUM_KAART_40, Models.GENERATED);
         modelGen.register(ModItems.JONGLEER_BAL, Models.GENERATED);
 
     }

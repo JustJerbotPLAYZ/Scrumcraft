@@ -19,5 +19,15 @@ public class ScrumcraftItemTagProvider extends FabricTagProvider<Item> {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ModItemTags.DUCKIES)
                 .add(ModItems.RUBBER_DUCKY);
+
+        getOrCreateTagBuilder(ModItemTags.SCRUM_KAARTEN)
+                .add(ModItems.SCRUM_KAART_1)
+                .add(ModItems.SCRUM_KAART_2)
+                .add(ModItems.SCRUM_KAART_3)
+                .add(ModItems.SCRUM_KAART_5)
+                .add(ModItems.SCRUM_KAART_8)
+                .add(ModItems.SCRUM_KAART_13)
+                .add(ModItems.SCRUM_KAART_40)
+                .add(ModItems.SCRUM_KAART_INFINITY);
     }
 }

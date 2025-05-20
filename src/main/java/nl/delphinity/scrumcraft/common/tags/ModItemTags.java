@@ -8,6 +8,7 @@ import nl.delphinity.scrumcraft.Scrumcraft;
 
 public class ModItemTags {
     public static final TagKey<Item> DUCKIES = of("duckies");
+    public static final TagKey<Item> SCRUM_KAARTEN = of("scrum_kaarten");
 
     private static TagKey<Item> of(String ID) {
         return TagKey.of(RegistryKeys.ITEM, Identifier.of(Scrumcraft.MOD_ID, ID));

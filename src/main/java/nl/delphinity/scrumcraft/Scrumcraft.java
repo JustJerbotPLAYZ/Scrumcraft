@@ -2,6 +2,7 @@ package nl.delphinity.scrumcraft;
 
 import net.fabricmc.api.ModInitializer;
 import nl.delphinity.scrumcraft.init.ModEntityTypes;
+import nl.delphinity.scrumcraft.init.ModItemGroups;
 import nl.delphinity.scrumcraft.init.ModItems;
 import nl.delphinity.scrumcraft.init.ModSounds;
 import org.apache.logging.log4j.LogManager;
@@ -16,6 +17,7 @@ public class Scrumcraft implements ModInitializer {
     @Override
     public void onInitialize() {
         ModSounds.init();
+        ModItemGroups.init();
         ModItems.init();
         ModEntityTypes.init();
     }

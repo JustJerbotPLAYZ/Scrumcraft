@@ -1,4 +1,5 @@
 {
+  "item.scrumcraft.ball": "Jongleerbal",
   "item.scrumcraft.rubber_ducky": "Rubber Ducky",
   "item.scrumcraft.scrum_kaart_1": "Scrum Kaart 1",
   "item.scrumcraft.scrum_kaart_13": "Scrum Kaart 13",
@@ -8,6 +9,9 @@
   "item.scrumcraft.scrum_kaart_5": "Scrum Kaart 5",
   "item.scrumcraft.scrum_kaart_8": "Scrum Kaart 8",
   "item.scrumcraft.scrum_kaart_infinity": "De infinity kaart",
+  "itemGroup.scrumcraft": "Scrumcraft",
+  "sound.scrumcraft.ball_hit": "Ball hit",
+  "sound.scrumcraft.ball_throw": "Ball thrown",
   "sound.scrumcraft.rubber_ducky_squeak": "Quack!",
-  "sounds.scumcraft.rubber_ducky_throw": "Duck yeeteth"
+  "sound.scrumcraft.rubber_ducky_throw": "Duck yeeteth"
 }

@@ -19,5 +19,11 @@
       "scrumcraft:random/ball_hit_1",
       "scrumcraft:random/ball_hit_2"
     ]
+  },
+  "ball_throw": {
+    "subtitle": "sound.scrumcraft.ball_throw",
+    "sounds": [
+      "scrumcraft:ball_throw"
+    ]
   }
 }
