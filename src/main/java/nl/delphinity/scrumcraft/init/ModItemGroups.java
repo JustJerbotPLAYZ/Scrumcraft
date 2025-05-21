@@ -18,7 +18,10 @@ public class ModItemGroups {
             .displayName(Text.translatable("itemGroup.scrumcraft"))
             .build();
 
+
     public static void init() {
         Registry.register(Registries.ITEM_GROUP, SCRUMCRAFT_ITEM_GROUP_KEY, SCRUMCRAFT_ITEM_GROUP);
+
+
     }
 }
