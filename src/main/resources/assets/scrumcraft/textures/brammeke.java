@@ -5,7 +5,7 @@
  * Exported for Minecraft version 1.19 or later with Mojang mappings
  * @author Author
  */
-public class brammekeAnimation {
+public class BrammekeAnimation {
 	public static final AnimationDefinition Walk = AnimationDefinition.Builder.withLength(1.0F).looping()
 		.addAnimation("RightArm", new AnimationChannel(AnimationChannel.Targets.ROTATION, 
 			new Keyframe(0.0F, KeyframeAnimations.degreeVec(0.0F, 0.0F, 0.0F), AnimationChannel.Interpolations.LINEAR),
