@@ -17,10 +17,10 @@ public class ModEntities {
     public static final EntityType<BrammekeEntity> BRAMMEKE = Registry.register(
             Registries.ENTITY_TYPE,
             Identifier.of(Scrumcraft.MOD_ID, "brammeke"),
-            EntityType.Builder.<BrammekeEntity>create(BrammekeEntity::new, SpawnGroup.MISC).dimensions(0.75f, 0.75f).build(BRAMMEKE_KEY)
+            EntityType.Builder.<BrammekeEntity>create(BrammekeEntity::new, SpawnGroup.MISC).dimensions(1f, 2f).build(BRAMMEKE_KEY)
     );
 
     public static void init() {
-        FabricDefaultAttributeRegistry.register(BRAMMEKE, BrammekeEntity.createMobAttributes());
+        FabricDefaultAttributeRegistry.register(BRAMMEKE, BrammekeEntity.createBrammekeAttributes());
     }
 }
