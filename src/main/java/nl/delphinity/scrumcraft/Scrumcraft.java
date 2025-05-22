@@ -17,6 +17,7 @@ public class Scrumcraft implements ModInitializer {
         ModItemGroups.init();
         ModItems.init();
         ModEntityTypes.init();
+        ModEntities.init();
         ModBlocks.init();
     }
 }
