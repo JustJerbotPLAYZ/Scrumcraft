@@ -1,5 +1,6 @@
 package nl.delphinity.scrumcraft.init;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.registry.Registries;
@@ -19,5 +20,7 @@ public class ModEntities {
             EntityType.Builder.<BrammekeEntity>create(BrammekeEntity::new, SpawnGroup.MISC).dimensions(0.75f, 0.75f).build(BRAMMEKE_KEY)
     );
 
-    public static void init() {}
+    public static void init() {
+        FabricDefaultAttributeRegistry.register(BRAMMEKE, BrammekeEntity.createMobAttributes());
+    }
 }
